@@ -4,8 +4,8 @@ library(purrr)
 library(readxl)
 library(tidycensus)
 
-IN_DIR = "data/raw"
-OUT_DIR = "data/prep"
+IN_DIR = "dca/warranties/data/raw"
+OUT_DIR = "dca/warranties/data/prep"
 
 files = dplyr::tibble(year = 2000:2022) %>%
   dplyr::mutate(
